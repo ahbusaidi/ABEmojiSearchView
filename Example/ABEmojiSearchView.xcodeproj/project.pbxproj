@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0A6AE45C2AAF3BEF5579992C /* Pods_ABEmojiSearchView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CF03CDCB50591463FEC222 /* Pods_ABEmojiSearchView_Example.framework */; };
+		2E74001B1BF1E27800A95FD4 /* ABEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7400161BF1E27800A95FD4 /* ABEmoji.swift */; };
+		2E74001C1BF1E27800A95FD4 /* ABEmojiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7400171BF1E27800A95FD4 /* ABEmojiManager.swift */; };
+		2E74001D1BF1E27800A95FD4 /* ABEmojiSearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7400181BF1E27800A95FD4 /* ABEmojiSearchResultTableViewCell.swift */; };
+		2E74001E1BF1E27800A95FD4 /* ABEmojiSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7400191BF1E27800A95FD4 /* ABEmojiSearchView.swift */; };
+		2E74001F1BF1E27800A95FD4 /* AllEmoji.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E74001A1BF1E27800A95FD4 /* AllEmoji.json */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +34,11 @@
 
 /* Begin PBXFileReference section */
 		19C2B07DE7A654DAAE4472CF /* Pods-ABEmojiSearchView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABEmojiSearchView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABEmojiSearchView_Example/Pods-ABEmojiSearchView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2E7400161BF1E27800A95FD4 /* ABEmoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABEmoji.swift; sourceTree = "<group>"; };
+		2E7400171BF1E27800A95FD4 /* ABEmojiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABEmojiManager.swift; sourceTree = "<group>"; };
+		2E7400181BF1E27800A95FD4 /* ABEmojiSearchResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABEmojiSearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		2E7400191BF1E27800A95FD4 /* ABEmojiSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABEmojiSearchView.swift; sourceTree = "<group>"; };
+		2E74001A1BF1E27800A95FD4 /* AllEmoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllEmoji.json; sourceTree = "<group>"; };
 		3CCB7F01F47423A929153F52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4874CD62D6F93D37DE71691E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5E5D4DF483A140E4A73218AB /* Pods-ABEmojiSearchView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABEmojiSearchView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABEmojiSearchView_Tests/Pods-ABEmojiSearchView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +91,11 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				2E7400161BF1E27800A95FD4 /* ABEmoji.swift */,
+				2E7400171BF1E27800A95FD4 /* ABEmojiManager.swift */,
+				2E7400181BF1E27800A95FD4 /* ABEmojiSearchResultTableViewCell.swift */,
+				2E7400191BF1E27800A95FD4 /* ABEmojiSearchView.swift */,
+				2E74001A1BF1E27800A95FD4 /* AllEmoji.json */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ABEmojiSearchView */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -209,6 +224,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -247,6 +263,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				2E74001F1BF1E27800A95FD4 /* AllEmoji.json in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +376,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				2E74001C1BF1E27800A95FD4 /* ABEmojiManager.swift in Sources */,
+				2E74001E1BF1E27800A95FD4 /* ABEmojiSearchView.swift in Sources */,
+				2E74001B1BF1E27800A95FD4 /* ABEmoji.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				2E74001D1BF1E27800A95FD4 /* ABEmojiSearchResultTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

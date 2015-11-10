@@ -1,0 +1,14 @@
+PODS:
+  - ABEmojiSearchView (0.1.0)
+
+DEPENDENCIES:
+  - ABEmojiSearchView (from `../`)
+
+EXTERNAL SOURCES:
+  ABEmojiSearchView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ABEmojiSearchView: cbdef50fac814b509c143be419e1de00a28d0efe
+
+COCOAPODS: 0.39.0
